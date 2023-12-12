@@ -1,0 +1,203 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #ffffff;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header-logo{
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-logo-studio{
+    color: #2E2F42;
+}
+.header-nav-list{
+    font-size: 16px;
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: none;
+}
+
+.header-nav-list:hover {
+    font-size: 16px;
+    color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.header-nav-list:focus {
+    font-size: 16px;
+    color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+}
+address{
+    font-style: normal;
+}
+.header-address-contacts {
+    font-weight: 400 ;
+    color: #434455;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-address-contacts:hover{
+    font-weight: 400;
+    color: #404BBF;
+    font-style: normal;
+}
+.header-address-contacts:focus {
+    font-weight: 400;
+    color: #404BBF;
+    font-style: normal;
+}
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title{
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.hero-button{
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-button:hover{
+    color: #ffffff;
+    background-color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.hero-button:focus {
+    color: #ffffff;
+    background-color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.about-us{
+    background-color: #FFFFFF;
+}
+.about-us-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.about-us-text{
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team{
+    background-color: #F4F4FD;
+}
+.team-title{
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-list{
+    background-color: #ffffff;
+}
+.team-names{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-position{
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.portfolio-title{
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio-samples{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-kind{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer{
+    font-family: "Raleway", sans-serif;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+.footer-logo-studio{
+    color: #F4F4FD;
+}
+.footer-text{
+    font-family: "roboto", sans-serif;
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: none;
+}
