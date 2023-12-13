@@ -7,12 +7,40 @@ body{
     line-height: 1.2; 
     letter-spacing: 0.02em;
     font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
 }
-ul {
+.container{
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 a{
     text-decoration: none;
+}
+
+.header{
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+.header-nav{
+    display: flex;
+}
+.header-container{
+    display: flex;
 }
 .header-logo{
     font-family: "Raleway", sans-serif;
@@ -22,26 +50,36 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    width: 115px;
+    margin: 0;
+    display: flex;
+    margin-right: 78px;
+    margin-left: 156px;
 }
 .header-logo-studio{
     color: #2E2F42;
 }
 .header-nav-list{
+    display: flex;
+    margin-right: 332px;
+    gap: 40px;
+}
+.header-nav-list-item{
     font-size: 16px;
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-transform: none;
+    gap: 40px;
 }
-
-.header-nav-list:hover {
+.header-nav-list-item:hover {
     font-size: 16px;
     color: #404BBF;
     font-weight: 500;
     font-size: 16px;
 }
-.header-nav-list:focus {
+.header-nav-list-item:focus {
     font-size: 16px;
     color: #404BBF;
     font-weight: 500;
@@ -49,6 +87,13 @@ a{
 }
 address{
     font-style: normal;
+}
+.header-address-list{
+    display: flex;
+    gap: 40px;
+}
+.header-address-list-item{
+    display: flex;
 }
 .header-address-contacts {
     font-weight: 400 ;
@@ -70,6 +115,12 @@ address{
 .hero{
     background-color: #2E2F42;
 }
+.hero-container{
+    padding-bottom: 60px;
+    padding: 188px 472px 48px;
+    margin: auto;
+    
+}
 .hero-title{
     color: #ffffff;
     font-family: 'roboto';
@@ -78,6 +129,9 @@ address{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
+    margin-bottom: 48px;
+
 }
 .hero-button{
     color: #ffffff;
@@ -87,6 +141,11 @@ address{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 188px;
+    margin-left: 164px;
 }
 .hero-button:hover{
     color: #ffffff;
@@ -104,10 +163,29 @@ address{
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.about-us{
+.about-us {
     background-color: #FFFFFF;
 }
-.about-us-title{
+.about-us-container{
+    width: 1128px;
+}
+.about-us-none{
+    display: none;
+}
+.about-us-list{
+    padding: 60px 156px;
+    display: inline-block;
+    padding: 60px 0;
+}
+.about-us-list-title{
+    display: inline-block;
+    width: 264px;
+    margin-right: 24px;
+}
+.about-us-list-title:last-child{
+    margin: 0;
+}
+.about-us-item{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -119,8 +197,15 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.team-container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .team{
     background-color: #F4F4FD;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 156px;
 }
 .team-title{
     color: #2E2F42;
@@ -130,21 +215,41 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .team-list{
-    background-color: #ffffff;
+    display: inline-block;
+    background-color: #fff;
+    
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.team-names:last-child{
+    margin-right: 0;
 }
 .team-names{
     font-size: 20px;
     font-weight: 500;
     color: #2E2F42;
+    background-color: #fff;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-bottom: 8px;
 }
 .team-position{
     color: #434455;
+    background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.portfolio-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1128px;
 }
 .portfolio-title{
     color: #2E2F42;
@@ -154,6 +259,17 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.portfolio-list{
+    display: inline;
+    padding-bottom: 32px;
+}
+.portfolio-list-item{
+    display: inline;
+
 }
 .portfolio-samples{
     color: #2E2F42;
@@ -161,12 +277,15 @@ address{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .portfolio-kind{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 .footer{
     font-family: "Raleway", sans-serif;
