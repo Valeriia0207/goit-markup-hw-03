@@ -29,6 +29,11 @@ ul, ol {
 a{
     text-decoration: none;
 }
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .header{
     display: flex;
@@ -173,8 +178,8 @@ address{
     display: none;
 }
 .about-us-list{
-    padding: 60px 156px;
     display: inline-block;
+    padding: 60px 156px;
     padding: 60px 0;
 }
 .about-us-list-title{
@@ -221,8 +226,14 @@ address{
 }
 .team-list{
     display: inline-block;
+    background-color: #F4F4FD;
+}
+.team-list-item{
+    display: inline-block;
     background-color: #fff;
-    
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     margin-right: 20px;
     margin-bottom: 32px;
 }
@@ -238,6 +249,7 @@ address{
     letter-spacing: 0.02em;
     margin-top: 32px;
     margin-bottom: 32px;
+    padding-left: 65px;
     padding-bottom: 8px;
 }
 .team-position{
@@ -245,6 +257,12 @@ address{
     background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 68px;
+    padding-bottom: 39px;
+}
+.portfolio{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .portfolio-container{
     padding-right: 15px;
@@ -264,12 +282,16 @@ address{
     margin-left: auto;
 }
 .portfolio-list{
-    display: inline;
+    display: inline-block;
+    width: 380px;
+    border: 1px;
     padding-bottom: 32px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
 }
 .portfolio-list-item{
-    display: inline;
-
+    display: inline-block;
+    
 }
 .portfolio-samples{
     color: #2E2F42;
@@ -298,24 +320,23 @@ address{
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-}
-.footer-link{
-    margin: 100px 1020px 100px 156px;
-    color: #4D5AE5;
+
 }
 .footer-container{
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
-.footer-logo{
+.footer-logo-link{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 16px;
+    margin: 100px 1020px 17.5px 156px;
 }
 .footer-logo-studio{
     color: #F4F4FD;
@@ -329,5 +350,8 @@ address{
     letter-spacing: 0.02em;
     text-align: left;
     text-transform: none;
-    padding: 140px 1020px 100px 156px;
+    width: 264px;
+    margin-left: 156px;
+    margin-top: 17.5px;
+    
 }
